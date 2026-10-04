@@ -1,0 +1,9 @@
+@"
+voicetotext/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+"@ | Out-File -Encoding utf8 .gitignore
